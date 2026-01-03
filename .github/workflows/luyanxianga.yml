@@ -2,21 +2,26 @@ name: luyanxianga
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
+    - cron: '58 3/6 * * *'
 
-jobs:  # 26417
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luyanxianga
         env:
-          ihem17: ${{ secrets.ihem17 }}
+          hkfwa57: ${{ secrets.hkfwa57 }}
         run: |
-          echo $ihem17 | jq -r .tfpai49 | /bin/bash
-          echo $tkwpp3 | jq -r .zsepc803 | /bin/bash
-          echo $yta1 | jq -r .tmwmu01 | /bin/bash
-          echo $nidu38905 | jq -r .qyooo140 | /bin/bash
-          echo $a8870 | jq -r .bkg8647 | /bin/bash
-          echo $apo3 | jq -r .jf477 | /bin/bash
+          echo $hkfwa57 | jq -r .tqgm2 | /bin/bash
+          echo $elk07 | jq -r .xq7 | /bin/bash
+          echo $yug02713 | jq -r .ht6198 | /bin/bash
+          echo $e6 | jq -r .ikot1 | /bin/bash
+          echo $wl774 | jq -r .vav893 | /bin/bash
+          echo $cpybh2 | jq -r .nalal8 | /bin/bash
+          echo $dgwd53330 | jq -r .eiaf07218 | /bin/bash
+          echo $jgeya40 | jq -r .y4121 | /bin/bash
+          echo $atbxh52822 | jq -r .pscxh972 | /bin/bash
+          echo $zwu2 | jq -r .eoumd7812 | /bin/bash
 
